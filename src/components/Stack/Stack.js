@@ -1,24 +1,55 @@
 import React from 'react'
-import StackCard from './StackCard'
 
-import { StackContainer, StackHeading, StackCardHeading } from './Stack.styles'
+import { StackContainer, StackCard, StackIcon } from './Stack.styles'
+
+import { Html5, Css3, Js } from '../Icons/Icons'
 
 const Stack = () => {
     return (
         <div>
-            <StackHeading>
-                my stack:
-            </StackHeading>
+            <h1>
+                My Stack:
+            </h1>
             <StackContainer>
-                <StackCard category='Front End'>
-                </StackCard>
+                <div>
+                    <StackCard>
+                        <StackIcon>
+                            <Html5 />
+                        </StackIcon>
+                        <StackIcon>
+                            <Css3 />
+                        </StackIcon>
+                        <StackIcon>
+                            <Js />
+                        </StackIcon>
+                    </StackCard>
+                </div>
                 <StackCard category="Back End">
+                    <StackIcon>
+                        <Html5 />
+                    </StackIcon>
+                    <StackIcon>
+                        <Css3 />
+                    </StackIcon>
+                    <StackIcon>
+                        <Js />
+                    </StackIcon>
                 </StackCard>
                 <StackCard category="Other">
+                    <StackIcon>
+                        <Html5 />
+                    </StackIcon>
+                    <StackIcon>
+                        <Css3 />
+                    </StackIcon>
+                    <StackIcon>
+                        <Js />
+                    </StackIcon>
                 </StackCard>
             </StackContainer>
         </div>
     )
 }
+
 
 export default Stack

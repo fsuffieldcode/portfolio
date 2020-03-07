@@ -1,5 +1,5 @@
 import React from 'react'
-import styled from 'styled-components'
+import { GlobalStyle } from '../../GlobalStyle'
 
 import NavBar from '../Nav/Nav'
 import Intro from '../Intro/Intro'
@@ -11,13 +11,16 @@ import { Main, MainContainer } from './App.styles'
 
 const App = () => {
     return (
-        <Main>
-            <MainContainer>
-                <NavBar />
-                <Intro />
-                <Stack />
-            </MainContainer>
-        </Main>
+        <div>
+            <GlobalStyle />
+            <Main>
+                <MainContainer>
+                    <NavBar />
+                    <Intro />
+                    <Stack />
+                </MainContainer>
+            </Main>
+        </div>
     )
 }
 

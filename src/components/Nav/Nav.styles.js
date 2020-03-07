@@ -1,12 +1,11 @@
-import styled, { css } from 'styled-components'
+import styled from 'styled-components'
 
-const NavBar = styled.nav`
+const StyledNav = styled.nav`
 width: 100%;
 display: flex;
 justify-content: center;
-`
 
-const NavBarUl = styled.ul`
+ul {
 margin: 0;
 padding: 0;
 display: flex;
@@ -14,6 +13,16 @@ justify-content: space-around;
 list-style: none;
 font-size: 2vh;
 font-weight: 400;
+}
+
+li {
+    margin-left: 1rem;
+}
+
+i {
+    display: inline-block;
+font-size: 1.2rem;
+}
 `
 
 const NavItems = styled.div`
@@ -24,14 +33,5 @@ padding-top: 0.5rem;
 padding-bottom: 0.5rem;
 `
 
-const NavLink = styled.li`
-margin-left: 1rem;
-`
-
-const Logo = styled.i`
-display: inline-block;
-font-size: 1.2rem;
-`
-
-export { NavBar, NavBarUl, NavItems, NavLink, Logo }
+export { StyledNav, NavItems }
 
