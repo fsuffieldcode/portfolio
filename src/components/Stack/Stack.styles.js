@@ -5,7 +5,6 @@ width: 100%;
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
-align-items: center;
 text-align: center;
 `
 
@@ -39,6 +38,8 @@ div {
     align-items: center;
     margin: 0.6rem;
 }
+
+
 `
 
 
