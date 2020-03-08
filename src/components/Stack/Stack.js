@@ -12,22 +12,19 @@ const Stack = () => {
                     <h3>front end</h3>
                     <StackCard>
                         <StackIcon>
-                            <ReactIcon color="white" />
+                            <ReactIcon color="#6e6e6e" />
                         </StackIcon>
                         <StackIcon>
-                            <ReduxIcon color="white" />
+                            <StyledComponentsIcon color="#6e6e6e" />
                         </StackIcon>
                         <StackIcon>
-                            <StyledComponentsIcon color="white" />
+                            <JsIcon color="#6e6e6e" />
                         </StackIcon>
                         <StackIcon>
-                            <JsIcon color="white" />
+                            <HtmlIcon color="#6e6e6e" />
                         </StackIcon>
                         <StackIcon>
-                            <HtmlIcon color="white" />
-                        </StackIcon>
-                        <StackIcon>
-                            <CssIcon color="white" />
+                            <CssIcon color="#6e6e6e" />
                         </StackIcon>
                     </StackCard>
                 </div>
@@ -36,13 +33,13 @@ const Stack = () => {
                         <h3>back end</h3>
                         <StackCard>
                             <StackIcon>
-                                <NodeIcon color="white" />
+                                <NodeIcon color="#6e6e6e" />
                             </StackIcon>
                             <StackIcon>
-                                <ExpressIcon color="white" />
+                                <ExpressIcon color="#6e6e6e" />
                             </StackIcon>
                             <StackIcon>
-                                <MongoIcon color="white" />
+                                <MongoIcon color="#6e6e6e" />
                             </StackIcon>
                         </StackCard>
                     </div>

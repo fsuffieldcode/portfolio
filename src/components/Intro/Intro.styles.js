@@ -13,7 +13,8 @@ padding-top: 10vw;
 font-size: 1.4vw;
 
 @media (min-width: 1000px) {
-      font-size: 1.6vw;
+      font-size: 1.5vw;
+      margin-bottom: 5rem;
   }
 
 @media (max-width: 500px) {
@@ -36,7 +37,7 @@ background: -webkit-linear-gradient(#a6c0fe, #f68084);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
-  @media (min-width: 1200px) {
+  @media (min-width: 1100px) {
       font-size: 11vw;
       line-height: 10vw;
   }

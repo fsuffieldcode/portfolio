@@ -8,13 +8,14 @@ const Intro = () => {
     return (
         <IntroContainer><span>Hi, I'm</span>
             <Heading>
-                Fabian Suffield
+                Fabian<br />
+                Suffield
         </Heading>
-        <StyledSocialContainer>
-        <GitHubIcon color="#f68084"/>
-        <LinkedInIcon color="#f68084"/>
-        </StyledSocialContainer>
-            <span>and I develop web apps using</span>
+            <StyledSocialContainer>
+                <GitHubIcon color="#f68084" />
+                <LinkedInIcon color="#f68084" />
+            </StyledSocialContainer>
+            <span>I develop web apps using:</span>
         </IntroContainer>
     )
 }

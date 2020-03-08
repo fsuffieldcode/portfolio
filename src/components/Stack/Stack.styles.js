@@ -5,53 +5,51 @@ const StackContainer = styled.section`
 width: 100%;
 display: flex;
 flex-wrap: wrap;
-justify-content: center;
+justify-content: space-around;
 text-align: center;
 
 h3 {
-    text-align: left;
+    text-align: center;
     font-size: 4vw;
     margin-bottom: 0;
-    margin-left: 1vw;
     font-weight: 200;
     color: #a6c0fe;
 }
 `
 
 const StackCard = styled.div`
-border: 1px solid white;
-max-width: 70vw;
+width: 100%;
+min-height: 10vw;
+padding: 0.75rem;
 border-radius: 1vw;
 display: flex;
 flex-wrap: wrap;
-justify-content: center;
+justify-content: space-around;
 align-items: center;
-background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
-@media (max-width: 575px) {
-    justify-content: space-around;
-  }
+border: 1px solid #bfbfbf;
 `
 
 const StackIcon = styled.div`
 display: flex;
+padding: 0.5rem;
 
 div {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0.6rem;
-    width: 20vw;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    width: 4vw;
 }
 
 /* Icon Labels */
 div > div > span {
-    font-size: 0.9rem;
-    color: white;
+    font-size: 0.8rem;
 }
 
 /* Icons */
 svg {
-    width: 100%;
+    width: 5vw;
     max-width: 90px;
     margin: 0.5vw;
 }
