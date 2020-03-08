@@ -2,7 +2,7 @@ import React from 'react'
 
 import { StackContainer, StackCard, StackIcon } from './Stack.styles'
 
-import { HtmlIcon, CssIcon, JsIcon, ReactIcon, ReduxIcon, StyledComponentsIcon } from '../Icons/Icons'
+import { HtmlIcon, CssIcon, JsIcon, ReactIcon, ReduxIcon, StyledComponentsIcon, NodeIcon, ExpressIcon, MongoIcon } from '../Icons/Icons'
 
 const Stack = () => {
     return (
@@ -36,16 +36,13 @@ const Stack = () => {
                         <h3>back end</h3>
                         <StackCard>
                             <StackIcon>
-                                <HtmlIcon />
+                                <NodeIcon color="white" />
                             </StackIcon>
                             <StackIcon>
-                                <CssIcon />
+                                <ExpressIcon color="white" />
                             </StackIcon>
                             <StackIcon>
-                                <JsIcon />
-                            </StackIcon>
-                            <StackIcon>
-                                <ReactIcon />
+                                <MongoIcon color="white" />
                             </StackIcon>
                         </StackCard>
                     </div>
