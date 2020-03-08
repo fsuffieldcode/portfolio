@@ -2,29 +2,29 @@ import React from 'react'
 
 import { StackContainer, StackHeading, StackCard, StackIcon } from './Stack.styles'
 
-import { HtmlIcon, CssIcon, JsIcon, ReactIcon } from '../Icons/Icons'
+import { HtmlIcon, CssIcon, JsIcon, ReactIcon, ReduxIcon } from '../Icons/Icons'
 
 const Stack = () => {
     return (
         <div>
             <StackContainer>
                 <StackHeading>
-                    <h2>My Stack:</h2>
+                    <h2>I build web apps using</h2>
                 </StackHeading>
                 <div>
                     <h3>Front End</h3>
                     <StackCard>
                         <StackIcon>
-                            <HtmlIcon />
+                            <ReactIcon color="white"/>
                         </StackIcon>
                         <StackIcon>
-                            <CssIcon />
+                            <JsIcon color="white"/>
                         </StackIcon>
                         <StackIcon>
-                            <JsIcon />
+                            <HtmlIcon color="white"/>
                         </StackIcon>
                         <StackIcon>
-                            <ReactIcon />
+                            <CssIcon color="white"/>
                         </StackIcon>
                     </StackCard>
                 </div>

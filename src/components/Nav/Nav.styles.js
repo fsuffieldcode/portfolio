@@ -14,7 +14,6 @@ display: flex;
 justify-content: space-around;
 list-style: none;
 font-size: 2vh;
-font-weight: 400;
 }
 
 li {
