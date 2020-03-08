@@ -9,7 +9,8 @@ justify-content: center;
 text-align: center;
 
 h3 {
-    text-align: left;
+    text-align: center;
+    font-size: 6vw;
 }
 `
 
@@ -21,12 +22,13 @@ justify-content: center;
 
 const StackCard = styled.div`
 border: 1px solid white;
-border-radius: 5px;
+border-radius: 1vw;
 margin: 1rem;
 display: flex;
 flex-wrap: wrap;
 justify-content: space-around;
 align-items: center;
+background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
 `
 
 const StackIcon = styled.div`
@@ -43,12 +45,13 @@ div {
 
 /* Icon Labels */
 div > div > span {
-    font-size: 2vw;
+    font-size: 0.9rem;
+    color: white;
 }
 
-/* Icon */
+/* Icons */
 svg {
-    width: 12vw;
+    width: 100%;
     max-width: 90px;
     margin: 0.5rem;
 }

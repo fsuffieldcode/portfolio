@@ -8,10 +8,9 @@ const GlobalStyle = createGlobalStyle`
     body {
         height: 100%;
         overflow: auto;
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Muli', sans-serif;
         box-sizing: border-box;
-        background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
-        color: white;
+        background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
     }
 `
 

@@ -1,16 +1,14 @@
 import React from 'react'
 
-import { IntroContainer, Heading, SubHeading } from './Intro.styles'
+import { IntroContainer, Heading } from './Intro.styles'
 
 const Intro = () => {
     return (
-        <IntroContainer>
+        <IntroContainer><span>Hi, I'm</span>
             <Heading>
                 Fabian Suffield
         </Heading>
-            <SubHeading>
-                web developer
-        </SubHeading>
+                <span>and I develop web apps using</span>
         </IntroContainer>
     )
 }

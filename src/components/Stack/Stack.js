@@ -2,14 +2,14 @@ import React from 'react'
 
 import { StackContainer, StackHeading, StackCard, StackIcon } from './Stack.styles'
 
-import { HtmlIcon, CssIcon, JsIcon, ReactIcon, ReduxIcon } from '../Icons/Icons'
+import { HtmlIcon, CssIcon, JsIcon, ReactIcon, ReduxIcon, StyledComponentsIcon } from '../Icons/Icons'
 
 const Stack = () => {
     return (
         <div>
             <StackContainer>
                 <StackHeading>
-                    <h2>I build web apps using</h2>
+                    <h2></h2>
                 </StackHeading>
                 <div>
                     <h3>Front End</h3>
@@ -25,6 +25,9 @@ const Stack = () => {
                         </StackIcon>
                         <StackIcon>
                             <CssIcon color="white"/>
+                        </StackIcon>
+                        <StackIcon>
+                            <StyledComponentsIcon color="white"/>
                         </StackIcon>
                     </StackCard>
                 </div>
