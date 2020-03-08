@@ -4,6 +4,7 @@ const GlobalStyle = createGlobalStyle`
     html {
         overflow: hidden;
         height: 100%;
+        color: #434343;
     }
     body {
         height: 100%;

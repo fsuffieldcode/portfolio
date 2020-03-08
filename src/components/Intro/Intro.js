@@ -1,6 +1,8 @@
 import React from 'react'
 
-import { IntroContainer, Heading } from './Intro.styles'
+import { IntroContainer, Heading, StyledSocialContainer } from './Intro.styles'
+
+import { GitHubIcon, LinkedInIcon } from '../Icons/Icons'
 
 const Intro = () => {
     return (
@@ -8,7 +10,11 @@ const Intro = () => {
             <Heading>
                 Fabian Suffield
         </Heading>
-                <span>and I develop web apps using</span>
+        <StyledSocialContainer>
+        <GitHubIcon color="#f68084"/>
+        <LinkedInIcon color="#f68084"/>
+        </StyledSocialContainer>
+            <span>and I develop web apps using</span>
         </IntroContainer>
     )
 }

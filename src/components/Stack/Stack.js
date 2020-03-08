@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { StackContainer, StackHeading, StackCard, StackIcon } from './Stack.styles'
+import { StackContainer, StackCard, StackIcon } from './Stack.styles'
 
 import { HtmlIcon, CssIcon, JsIcon, ReactIcon, ReduxIcon, StyledComponentsIcon } from '../Icons/Icons'
 
@@ -8,32 +8,32 @@ const Stack = () => {
     return (
         <div>
             <StackContainer>
-                <StackHeading>
-                    <h2></h2>
-                </StackHeading>
                 <div>
-                    <h3>Front End</h3>
+                    <h3>front end</h3>
                     <StackCard>
                         <StackIcon>
-                            <ReactIcon color="white"/>
+                            <ReactIcon color="white" />
                         </StackIcon>
                         <StackIcon>
-                            <JsIcon color="white"/>
+                            <ReduxIcon color="white" />
                         </StackIcon>
                         <StackIcon>
-                            <HtmlIcon color="white"/>
+                            <StyledComponentsIcon color="white" />
                         </StackIcon>
                         <StackIcon>
-                            <CssIcon color="white"/>
+                            <JsIcon color="white" />
                         </StackIcon>
                         <StackIcon>
-                            <StyledComponentsIcon color="white"/>
+                            <HtmlIcon color="white" />
+                        </StackIcon>
+                        <StackIcon>
+                            <CssIcon color="white" />
                         </StackIcon>
                     </StackCard>
                 </div>
                 <div>
                     <div>
-                        <h3>Back End</h3>
+                        <h3>back end</h3>
                         <StackCard>
                             <StackIcon>
                                 <HtmlIcon />
@@ -67,7 +67,6 @@ const Stack = () => {
                         </StackCard>
                     </div>
                 </div>
-
             </StackContainer>
         </div>
 

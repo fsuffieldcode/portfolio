@@ -9,38 +9,38 @@ justify-content: center;
 text-align: center;
 
 h3 {
-    text-align: center;
-    font-size: 6vw;
+    text-align: left;
+    font-size: 4vw;
+    margin-bottom: 0;
+    margin-left: 1vw;
+    font-weight: 200;
+    color: #a6c0fe;
 }
-`
-
-const StackHeading = styled.div`
-width: 100%;
-display: flex;
-justify-content: center;
 `
 
 const StackCard = styled.div`
 border: 1px solid white;
+max-width: 70vw;
 border-radius: 1vw;
-margin: 1rem;
 display: flex;
 flex-wrap: wrap;
-justify-content: space-around;
+justify-content: center;
 align-items: center;
 background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+@media (max-width: 575px) {
+    justify-content: space-around;
+  }
 `
 
 const StackIcon = styled.div`
 display: flex;
-max-width: 40vw;
 
 div {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 0.6rem;
-    width: 15vw;
+    width: 20vw;
 }
 
 /* Icon Labels */
@@ -53,10 +53,10 @@ div > div > span {
 svg {
     width: 100%;
     max-width: 90px;
-    margin: 0.5rem;
+    margin: 0.5vw;
 }
 
 `
 
 
-export { StackContainer, StackHeading, StackCard, StackIcon }
+export { StackContainer, StackCard, StackIcon }
