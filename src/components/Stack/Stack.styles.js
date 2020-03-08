@@ -5,8 +5,8 @@ width: 100%;
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
+align-items: center;
 text-align: center;
-
 `
 
 const StackHeading = styled.div`
@@ -32,9 +32,11 @@ svg {
 const StackIcon = styled.div`
 display: flex;
 
+
 div {
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin: 0.6rem;
 }
 `

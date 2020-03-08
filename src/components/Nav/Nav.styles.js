@@ -4,6 +4,8 @@ const StyledNav = styled.nav`
 width: 100%;
 display: flex;
 justify-content: center;
+padding-top: 0.5rem;
+padding-bottom: 0.5rem;
 
 ul {
 margin: 0;
@@ -21,7 +23,7 @@ li {
 
 i {
     display: inline-block;
-font-size: 1.2rem;
+    font-size: 1.6rem;
 }
 `
 

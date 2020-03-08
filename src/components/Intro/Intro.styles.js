@@ -6,7 +6,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-margin: 10vh 0 15vh 0;
+height: 40vh;
 `
 
 const Heading = styled.h1`
