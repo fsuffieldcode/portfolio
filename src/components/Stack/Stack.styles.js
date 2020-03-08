@@ -7,9 +7,12 @@ flex-wrap: wrap;
 justify-content: center;
 text-align: center;
 
-h2 {
-    font-size: 1.5rem;
-}
+`
+
+const StackHeading = styled.div`
+width: 100%;
+display: flex;
+justify-content: center;
 `
 
 const StackCard = styled.div`
@@ -37,4 +40,4 @@ div {
 `
 
 
-export { StackContainer, StackCard, StackIcon }
+export { StackContainer, StackHeading, StackCard, StackIcon }

@@ -1,53 +1,73 @@
 import React from 'react'
 
-import { StackContainer, StackCard, StackIcon } from './Stack.styles'
+import { StackContainer, StackHeading, StackCard, StackIcon } from './Stack.styles'
 
-import { Html5, Css3, Js } from '../Icons/Icons'
+import { HtmlIcon, CssIcon, JsIcon, ReactIcon } from '../Icons/Icons'
 
 const Stack = () => {
     return (
         <div>
-            <h1>
-                My Stack:
-            </h1>
             <StackContainer>
+                <StackHeading>
+                    <h2>My Stack:</h2>
+                </StackHeading>
                 <div>
+                    <h3>Front End</h3>
                     <StackCard>
                         <StackIcon>
-                            <Html5 />
+                            <HtmlIcon />
                         </StackIcon>
                         <StackIcon>
-                            <Css3 />
+                            <CssIcon />
                         </StackIcon>
                         <StackIcon>
-                            <Js />
+                            <JsIcon />
+                        </StackIcon>
+                        <StackIcon>
+                            <ReactIcon />
                         </StackIcon>
                     </StackCard>
                 </div>
-                <StackCard category="Back End">
-                    <StackIcon>
-                        <Html5 />
-                    </StackIcon>
-                    <StackIcon>
-                        <Css3 />
-                    </StackIcon>
-                    <StackIcon>
-                        <Js />
-                    </StackIcon>
-                </StackCard>
-                <StackCard category="Other">
-                    <StackIcon>
-                        <Html5 />
-                    </StackIcon>
-                    <StackIcon>
-                        <Css3 />
-                    </StackIcon>
-                    <StackIcon>
-                        <Js />
-                    </StackIcon>
-                </StackCard>
+                <div>
+                    <div>
+                        <h3>Back End</h3>
+                        <StackCard>
+                            <StackIcon>
+                                <HtmlIcon />
+                            </StackIcon>
+                            <StackIcon>
+                                <CssIcon />
+                            </StackIcon>
+                            <StackIcon>
+                                <JsIcon />
+                            </StackIcon>
+                            <StackIcon>
+                                <ReactIcon />
+                            </StackIcon>
+                        </StackCard>
+                    </div>
+                    <div>
+                        <h3>Tools</h3>
+                        <StackCard>
+                            <StackIcon>
+                                <HtmlIcon />
+                            </StackIcon>
+                            <StackIcon>
+                                <CssIcon />
+                            </StackIcon>
+                            <StackIcon>
+                                <JsIcon />
+                            </StackIcon>
+                            <StackIcon>
+                                <ReactIcon />
+                            </StackIcon>
+                        </StackCard>
+                    </div>
+                </div>
+
             </StackContainer>
         </div>
+
     )
 }
 

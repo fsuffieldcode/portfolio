@@ -7,8 +7,6 @@ import Stack from '../Stack/Stack'
 
 import { Main, MainContainer } from './App.styles'
 
-
-
 const App = () => {
     return (
         <div>
