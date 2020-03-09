@@ -7,14 +7,13 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-height: 50vh;
+margin-top: 6vw;
+height: 70vw;
 text-align: center;
-padding-top: 10vw;
 font-size: 1.4vw;
 
 @media (min-width: 1000px) {
       font-size: 1.5vw;
-      margin-bottom: 5rem;
   }
 
 @media (max-width: 500px) {
@@ -24,6 +23,10 @@ font-size: 1.4vw;
 span {
       font-size: 2.5vw;
       margin: 2vw;
+}
+
+svg {
+    width: 10vw;
 }
 `
 

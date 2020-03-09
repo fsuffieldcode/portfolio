@@ -5,22 +5,25 @@ const StackContainer = styled.section`
 width: 100%;
 display: flex;
 flex-wrap: wrap;
-justify-content: space-around;
+justify-content: center;
 text-align: center;
 
+
+/* Stack labels */
 h3 {
     text-align: center;
-    font-size: 4vw;
+    font-size: 2.5vw;
     margin-bottom: 0;
     font-weight: 200;
-    color: #a6c0fe;
+    color: #6e6e6e;
 }
 `
 
 const StackCard = styled.div`
-width: 100%;
 min-height: 10vw;
+max-width: 14vw;
 padding: 0.75rem;
+margin: 2vw;
 border-radius: 1vw;
 display: flex;
 flex-wrap: wrap;
@@ -31,7 +34,7 @@ border: 1px solid #bfbfbf;
 
 const StackIcon = styled.div`
 display: flex;
-padding: 0.5rem;
+margin: 0.4rem;
 
 div {
     display: flex;
