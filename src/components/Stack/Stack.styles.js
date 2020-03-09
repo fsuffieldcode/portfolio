@@ -3,6 +3,8 @@ import styled from 'styled-components'
 
 const StackContainer = styled.section`
 width: 100%;
+padding-top: 2vw;
+padding-bottom: 2vw;
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
@@ -12,7 +14,7 @@ text-align: center;
 /* Stack labels */
 h3 {
     text-align: center;
-    font-size: 2.5vw;
+    font-size: 2.7vw;
     margin-bottom: 0;
     font-weight: 200;
     color: #6e6e6e;
@@ -29,7 +31,8 @@ display: flex;
 flex-wrap: wrap;
 justify-content: space-around;
 align-items: center;
-border: 1px solid #bfbfbf;
+border: 1px solid var(--lightgrey);
+background-color: white;
 `
 
 const StackIcon = styled.div`

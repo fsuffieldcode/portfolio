@@ -8,21 +8,32 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 margin-top: 6vw;
-height: 70vw;
+height: 60vw;
 text-align: center;
 font-size: 1.4vw;
 
-@media (min-width: 1000px) {
-      font-size: 1.5vw;
-  }
 
-@media (max-width: 500px) {
-      font-size: 1.6vw;
+@media (min-width: 1000px) {
+      height: 32vw;
+      margin-top: 5vw;
+      margin-bottom: 4vw;
+}
+
+@media (min-width: 1200px) {
+      height: 25vw;
+      margin-top: 5vw;
+      margin-bottom: 4vw;
 }
 
 span {
       font-size: 2.5vw;
-      margin: 2vw;
+      margin: 4vw;
+}
+
+@media (min-width: 1000px) {
+    span {
+        font-size: 1.7vw;
+    }
 }
 
 svg {
@@ -36,13 +47,18 @@ font-size: 15vw;
 font-weight: 900;
 font-style: italic;
 line-height: 14vw;
-background: -webkit-linear-gradient(#a6c0fe, #f68084);
+background: -webkit-linear-gradient(var(--coral), var(--purple));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
-  @media (min-width: 1100px) {
-      font-size: 11vw;
-      line-height: 10vw;
+  @media (min-width: 1000px) {
+      font-size: 10vw;
+      line-height: 9vw;
+  }
+
+  @media (min-width: 1200px) {
+      font-size: 8vw;
+      line-height: 7vw;
   }
 `
 

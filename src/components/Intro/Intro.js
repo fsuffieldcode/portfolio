@@ -15,8 +15,7 @@ const Intro = () => {
                 <GitHubIconNoText color="#f68084" />
                 <LinkedInIcon color="#f68084" />
             </StyledSocialContainer>
-            <span>I'm a web developer.</span>
-            <DownArrow color="#f68084"/>
+            <span>I create fast, response web apps using:</span>
         </IntroContainer>
     )
 }
