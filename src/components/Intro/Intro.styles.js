@@ -13,32 +13,37 @@ text-align: center;
 font-size: 1.4vw;
 
 
-@media (min-width: 1000px) {
-      height: 32vw;
+@media (min-width: 900px) {
+      height: 30vw;
       margin-top: 5vw;
       margin-bottom: 4vw;
 }
 
 @media (min-width: 1200px) {
-      height: 25vw;
-      margin-top: 5vw;
-      margin-bottom: 4vw;
+      height: 24vw;
 }
 
 span {
       font-size: 2.5vw;
-      margin: 4vw;
+      margin: 3vw;
 }
 
-@media (min-width: 1000px) {
+div > svg {
+    width: 6vw;
+}
+
+@media (min-width: 900px) {
     span {
         font-size: 1.7vw;
     }
+
+    div > svg {
+    width: 5vw;
 }
 
-svg {
-    width: 10vw;
 }
+
+
 `
 
 const Heading = styled.h1`
@@ -51,7 +56,7 @@ background: -webkit-linear-gradient(var(--coral), var(--purple));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
-  @media (min-width: 1000px) {
+  @media (min-width: 900px) {
       font-size: 10vw;
       line-height: 9vw;
   }
@@ -66,9 +71,17 @@ const StyledSocialContainer = styled.div`
 display: flex;
 
 svg {
-    width: 5vw;
-    margin: 0.5vw;
+    margin: 0.5rem;
 }
+
+@media (min-width: 1200px) {
+
+    svg {
+        max-width: 3vw;
+    }
+  }
+
+
 `
 
 

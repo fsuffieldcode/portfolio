@@ -12,19 +12,19 @@ const Stack = () => {
                     <h3>front end</h3>
                     <StackCard>
                         <StackIcon>
-                            <ReactIcon color="#6e6e6e" />
+                            <ReactIcon />
                         </StackIcon>
                         <StackIcon>
-                            <StyledComponentsIcon color="#6e6e6e" />
+                            <StyledComponentsIcon />
                         </StackIcon>
                         <StackIcon>
-                            <JsIcon color="#6e6e6e" />
+                            <JsIcon />
                         </StackIcon>
                         <StackIcon>
-                            <HtmlIcon color="#6e6e6e" />
+                            <HtmlIcon />
                         </StackIcon>
                         <StackIcon>
-                            <CssIcon color="#6e6e6e" />
+                            <CssIcon />
                         </StackIcon>
                     </StackCard>
                 </div>
@@ -32,13 +32,13 @@ const Stack = () => {
                     <h3>back end</h3>
                     <StackCard>
                         <StackIcon>
-                            <NodeIcon color="#6e6e6e" />
+                            <NodeIcon />
                         </StackIcon>
                         <StackIcon>
-                            <ExpressIcon color="#6e6e6e" />
+                            <ExpressIcon />
                         </StackIcon>
                         <StackIcon>
-                            <MongoIcon color="#6e6e6e" />
+                            <MongoIcon />
                         </StackIcon>
                     </StackCard>
                 </div>
@@ -46,16 +46,16 @@ const Stack = () => {
                     <h3>tools</h3>
                     <StackCard>
                         <StackIcon>
-                            <GitIcon color="#6e6e6e" />
+                            <GitIcon />
                         </StackIcon>
                         <StackIcon>
-                            <GitHubIcon color="#6e6e6e" />
+                            <GitHubIcon />
                         </StackIcon>
                         <StackIcon>
-                            <NpmIcon color="#6e6e6e" />
+                            <NpmIcon />
                         </StackIcon>
                         <StackIcon>
-                            <YarnIcon color="#6e6e6e" />
+                            <YarnIcon />
                         </StackIcon>
                     </StackCard>
                 </div>

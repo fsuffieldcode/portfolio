@@ -2,7 +2,7 @@ import React from 'react'
 
 import { IntroContainer, Heading, StyledSocialContainer } from './Intro.styles'
 
-import { GitHubIconNoText, LinkedInIcon, DownArrow } from '../Icons/Icons'
+import { GitHubIconNoText, LinkedInIcon, CurvedArrow } from '../Icons/Icons'
 
 const Intro = () => {
     return (
@@ -15,7 +15,7 @@ const Intro = () => {
                 <GitHubIconNoText color="#f68084" />
                 <LinkedInIcon color="#f68084" />
             </StyledSocialContainer>
-            <span>I create fast, response web apps using:</span>
+            <span>I make stuff for the web using:</span>
         </IntroContainer>
     )
 }

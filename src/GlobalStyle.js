@@ -3,8 +3,10 @@ import { createGlobalStyle } from 'styled-components'
 const GlobalStyle = createGlobalStyle`
     html {
         --almostblack: #434343;
+        --darkgrey: #6e6e6e;
         --lightgrey: #bfbfbf;
         --purple: #f68084;
+        --darkpurple: #827191;
         --coral: #a6c0fe;
 
         overflow: hidden;

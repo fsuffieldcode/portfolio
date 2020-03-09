@@ -19,12 +19,28 @@ h3 {
     font-weight: 200;
     color: #6e6e6e;
 }
+
+@media (min-width: 900px) {
+
+    /* Stack labels */
+h3 {
+    font-size: 2.2vw;
+}
+}
+
+@media (min-width: 1200px) {
+
+/* Stack labels */
+h3 {
+font-size: 1.8vw;
+}
+}
 `
 
 const StackCard = styled.div`
 min-height: 10vw;
-max-width: 14vw;
-padding: 0.75rem;
+max-width: 16vw;
+padding: 0.8rem;
 margin: 2vw;
 border-radius: 1vw;
 display: flex;
@@ -33,6 +49,10 @@ justify-content: space-around;
 align-items: center;
 border: 1px solid var(--lightgrey);
 background-color: white;
+
+@media (min-width: 900px) {
+        max-width: 16vw;
+}
 `
 
 const StackIcon = styled.div`
@@ -50,7 +70,7 @@ div {
 
 /* Icon Labels */
 div > div > span {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
 }
 
 /* Icons */
@@ -58,6 +78,27 @@ svg {
     width: 5vw;
     max-width: 90px;
     margin: 0.5vw;
+    fill: #CF4D6F;
+}
+
+@media (min-width: 900px) {
+    svg {
+        width: 4vw;
+    }
+
+    div > div > span {
+    font-size: 0.8rem;
+
+}
+}
+
+@media (min-width: 1200px) {
+    div {
+        max-width: 20vw;
+    }
+    svg {
+        width: 3.8vw;
+    }
 }
 
 `
