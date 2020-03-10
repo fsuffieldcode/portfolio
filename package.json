@@ -35,5 +35,8 @@
   "devDependencies": {
     "@svgr/cli": "^5.2.0",
     "babel-plugin-styled-components": "^1.10.7"
+  },
+  "prettier": {
+    "semi": false
   }
 }

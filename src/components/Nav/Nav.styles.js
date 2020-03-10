@@ -1,38 +1,37 @@
-import styled from 'styled-components'
+import styled from "styled-components"
 
 const StyledNav = styled.nav`
-width: 100%;
-display: flex;
-justify-content: center;
-padding-top: 0.5rem;
-padding-bottom: 0.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 
-ul {
-margin: 0;
-padding: 0;
-display: flex;
-justify-content: space-around;
-list-style: none;
-font-size: 2vh;
-}
+  ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 2vh;
+  }
 
-li {
+  li {
     margin-left: 1rem;
-}
+  }
 
-i {
+  i {
     display: inline-block;
     font-size: 1.6rem;
-}
+  }
 `
 
 const NavItems = styled.div`
-width: 100%;
-display: flex;
-justify-content: space-between;
-padding-top: 0.5rem;
-padding-bottom: 0.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 `
 
 export { StyledNav, NavItems }
-
