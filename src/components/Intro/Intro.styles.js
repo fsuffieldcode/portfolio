@@ -12,7 +12,7 @@ const IntroContainer = styled.section`
   /* Small Text */
   span {
     margin: 4vw;
-    font-size: 2.2vw;
+    font-size: 2.5vw;
   }
 
   /* Social Icons */
@@ -22,13 +22,13 @@ const IntroContainer = styled.section`
   }
 
   @media (min-width: 900px) {
-    height: 30vw;
+    height: 40vw;
     margin-top: 5vw;
     margin-bottom: 4vw;
 
     /* Small Text */
     span {
-      font-size: 1.7vw;
+      font-size: 1.6vw;
       margin: 2vw;
     }
 
@@ -39,9 +39,10 @@ const IntroContainer = styled.section`
   }
 
   @media (min-width: 1200px) {
-    height: 24vw;
+    height: 25vw;
     margin-bottom: 1vw;
   }
+
 `
 
 const Heading = styled.h1`

@@ -4,7 +4,7 @@ const StyledCard = styled.div`
 border: 1px solid var(--lightgrey);
 border-radius: 1vw;
 background-color: white;
-width: 300px;
+width: 350px;
 margin: 1rem;
 `
 
