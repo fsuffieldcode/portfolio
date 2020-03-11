@@ -91,9 +91,11 @@ const StackIcon = styled.div`
   }
 
   @media (min-width: 1200px) {
+    /* Icon Wrapper */
     div {
       max-width: 20vw;
     }
+    /* Icons */
     svg {
       width: 3.8vw;
     }

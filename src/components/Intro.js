@@ -2,7 +2,7 @@ import React from "react"
 
 import { IntroContainer, Heading, StyledSocialContainer } from "./Intro.styles"
 
-import { GitHubIconNoText, LinkedInIcon, CurvedArrow } from "../Icons/Icons"
+import { GitHubIconNoText, LinkedInIcon, CurvedArrow } from "./Icons"
 
 const Intro = () => {
   return (

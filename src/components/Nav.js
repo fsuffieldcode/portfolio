@@ -1,4 +1,7 @@
-import styled from "styled-components"
+import React, { Component } from 'react'
+import styled from 'styled-components'
+
+// Styles
 
 const StyledNav = styled.nav`
   width: 100%;
@@ -35,4 +38,23 @@ const NavItems = styled.div`
   padding-bottom: 0.5rem;
 `
 
-export { StyledNav, NavItems }
+// Code
+
+class Nav extends Component {
+  render() {
+    return (
+      <StyledNav>
+        <NavItems>
+          <i className="fas fa-code" />
+          <ul>
+            <li>Work</li>
+            <li>About</li>
+            <li>Contact</li>
+          </ul>
+        </NavItems>
+      </StyledNav>
+    )
+  }
+}
+
+export default Nav

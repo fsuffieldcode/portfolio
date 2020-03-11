@@ -1,7 +1,6 @@
-import { createGlobalStyle } from "styled-components"
+import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyle = createGlobalStyle`
-
 
     html {
         --almostblack: #434343;
@@ -15,6 +14,7 @@ const GlobalStyle = createGlobalStyle`
         overflow: hidden;
         color: var(--almostblack);
     }
+    
     body {
         height: 100%;
         overflow: auto;

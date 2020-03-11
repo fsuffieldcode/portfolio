@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled from 'styled-components'
 
 const IntroContainer = styled.section`
   display: flex;
@@ -42,7 +42,6 @@ const IntroContainer = styled.section`
     height: 25vw;
     margin-bottom: 1vw;
   }
-
 `
 
 const Heading = styled.h1`

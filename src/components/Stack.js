@@ -1,6 +1,6 @@
-import React from "react"
+import React from 'react'
 
-import { StackContainer, StackCard, StackIcon } from "./Stack.styles"
+import { StackContainer, StackCard, StackIcon } from './Stack.styles'
 
 import {
   HtmlIcon,
@@ -15,7 +15,7 @@ import {
   NodeIcon,
   ExpressIcon,
   MongoIcon
-} from "../Icons/Icons"
+} from './Icons'
 
 const Stack = () => {
   return (
