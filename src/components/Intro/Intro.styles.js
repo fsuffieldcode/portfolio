@@ -40,6 +40,7 @@ const IntroContainer = styled.section`
 
   @media (min-width: 1200px) {
     height: 24vw;
+    margin-bottom: 1vw;
   }
 `
 

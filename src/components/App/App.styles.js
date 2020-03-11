@@ -1,8 +1,7 @@
 import styled from "styled-components"
 
 const Main = styled.main`
-  width: 100vw;
-  height: 100%;
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
 `
 
 const MainContainer = styled.div`

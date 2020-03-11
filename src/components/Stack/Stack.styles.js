@@ -75,7 +75,7 @@ const StackIcon = styled.div`
     width: 5vw;
     max-width: 90px;
     margin: 0.5vw;
-    fill: #cf4d6f;
+    fill: var(--wine);
   }
 
   @media (min-width: 900px) {
