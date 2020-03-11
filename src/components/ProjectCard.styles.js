@@ -6,10 +6,17 @@ const CardContainer = styled.div`
   border: 1px solid var(--lightgrey);
   border-radius: 1vw;
   background-color: white;
+  max-height: 300px;
+`
+
+const CardHeading = styled.h3`
+
 `
 
 const CardImage = styled.img`
-
+border-radius: 1vw;
+height: 100%;
+max-width: 100%;
 `
 
-export { CardContainer, CardImage }
+export { CardContainer, CardHeading, CardImage }

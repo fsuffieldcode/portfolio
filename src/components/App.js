@@ -10,7 +10,7 @@ import Work from './WorkSection'
 // Styles
 
 const Main = styled.main`
-  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  /* background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%); */
 `
 
 const MainContainer = styled.div`
