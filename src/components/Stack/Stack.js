@@ -73,6 +73,7 @@ const Stack = () => {
           </StackCard>
         </div>
       </StackContainer>
+      <hr />
     </div>
   )
 }
