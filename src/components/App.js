@@ -1,5 +1,7 @@
 import styled from 'styled-components'
 import React from 'react'
+import Button from 'react-bootstrap/Button'
+
 import { GlobalStyle } from '../GlobalStyle'
 
 import NavBar from './Nav'
@@ -10,12 +12,10 @@ import Work from './WorkSection'
 // Styles
 
 const Main = styled.main`
-  /* background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%); */
 `
 
 const MainContainer = styled.div`
-  width: 90%;
-  max-width: 1100px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 `

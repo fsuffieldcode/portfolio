@@ -45,6 +45,7 @@ const StackCard = styled.div`
   align-items: center;
   border: 1px solid var(--lightgrey);
   background-color: white;
+  box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.09);
 
   @media (min-width: 900px) {
     max-width: 16vw;

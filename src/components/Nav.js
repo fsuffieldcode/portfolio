@@ -13,7 +13,7 @@ const StyledNav = styled.nav`
 
   ul {
     margin: 0;
-    padding: 0;
+    margin-right: 2rem;
     display: flex;
     justify-content: space-around;
     list-style: none;

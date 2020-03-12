@@ -6,9 +6,9 @@ const GlobalStyle = createGlobalStyle`
         --almostblack: #434343;
         --darkgrey: #6e6e6e;
         --lightgrey: #bfbfbf;
-        --purple: #f68084;
-        --darkpurple: #827191;
-        --coral: #a6c0fe;
+        --coral: #f68084;
+        --grape: #827191;
+        --lightblue: #a6c0fe;
         --wine: #cf4d6f;
         height: 100%;
         overflow: hidden;
@@ -20,7 +20,7 @@ const GlobalStyle = createGlobalStyle`
         overflow: auto;
         font-family: 'Muli', sans-serif;
         box-sizing: border-box;
-        background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+          background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
     }
 
 `

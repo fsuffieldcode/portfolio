@@ -50,7 +50,7 @@ const Heading = styled.h1`
   font-weight: 900;
   font-style: italic;
   line-height: 14vw;
-  background: -webkit-linear-gradient(var(--coral), var(--purple));
+  background: -webkit-linear-gradient(var(--lightblue), var(--coral));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
