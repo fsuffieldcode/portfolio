@@ -14,7 +14,12 @@ import {
   StyledComponentsIcon,
   NodeIcon,
   ExpressIcon,
-  MongoIcon
+  MongoIcon,
+  VsCodeIcon,
+  PhotoshopIcon,
+  HerokuIcon,
+  NetlifyIcon,
+  FigmaIcon
 } from './Icons'
 
 const Stack = () => {
@@ -69,6 +74,18 @@ const Stack = () => {
             </StackIcon>
             <StackIcon>
               <YarnIcon />
+            </StackIcon>
+            <StackIcon>
+              <HerokuIcon />
+            </StackIcon>
+            <StackIcon>
+              <NetlifyIcon />
+            </StackIcon>
+            <StackIcon>
+              <FigmaIcon />
+            </StackIcon>
+            <StackIcon>
+              <PhotoshopIcon />
             </StackIcon>
           </StackCard>
         </div>

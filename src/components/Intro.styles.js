@@ -5,63 +5,44 @@ const IntroContainer = styled.section`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 6vw;
-  height: 60vw;
+  margin-top: 3rem;
   text-align: center;
-
-  /* Small Text */
-  span {
-    margin: 4vw;
-    font-size: 2.5vw;
-  }
+  color: var(--darkgrey);
 
   /* Social Icons */
   div > svg {
-    width: 6vw;
-    margin: 0.5vw;
+    width: 2.25rem;
+    margin: 0.25rem;
   }
 
   @media (min-width: 900px) {
-    height: 40vw;
-    margin-top: 5vw;
-    margin-bottom: 4vw;
 
-    /* Small Text */
-    span {
-      font-size: 1.6vw;
-      margin: 2vw;
-    }
 
     /* Social Icons */
     div > svg {
-      width: 5vw;
+      width: 3rem;
     }
-  }
-
-  @media (min-width: 1200px) {
-    height: 25vw;
-    margin-bottom: 1vw;
   }
 `
 
 const Heading = styled.h1`
   margin: 0.75rem;
-  font-size: 15vw;
+  font-size: 5.5rem;
+  line-height: 4.5rem;
   font-weight: 900;
   font-style: italic;
-  line-height: 14vw;
   background: -webkit-linear-gradient(var(--lightblue), var(--coral));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
   @media (min-width: 900px) {
-    font-size: 12vw;
-    line-height: 10vw;
+    font-size: 7rem;
+    line-height: 6rem;
   }
 
   @media (min-width: 1200px) {
-    font-size: 8vw;
-    line-height: 7vw;
+    font-size: 8rem;
+    line-height: 7rem;
   }
 `
 
@@ -74,9 +55,29 @@ const StyledSocialContainer = styled.div`
 
   @media (min-width: 1200px) {
     svg {
-      max-width: 3vw;
+      max-width: 3rem;
     }
   }
 `
 
-export { IntroContainer, Heading, StyledSocialContainer }
+const StyledBio = styled.span`
+width: 70%;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+  font-size: 1rem;
+  color: var(--darkgrey);
+
+  b {
+    color: var(--wine);
+  }
+
+  @media (min-width: 900px) {
+    font-size: 1.25rem;
+  }
+
+  @media (min-width: 1200px) {
+    font-size: 1.5rem;
+  }
+`
+
+export { IntroContainer, Heading, StyledSocialContainer, StyledBio,  }

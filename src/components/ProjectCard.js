@@ -1,19 +1,12 @@
 import React from 'react'
+import {StyledProjectCard, StyledProjectImage } from './ProjectCard.styles'
 
-import { CardContainer, HeadingContainer, Heading, CardImage } from './ProjectCard.styles'
-
-const ProjectCard = props => {
-
-  return (
-    <div>
-    <CardContainer>
-    <CardImage src={props.source} />
-    </CardContainer>
-    <HeadingContainer>
-    <Heading>{props.name}</Heading>
-    </HeadingContainer>
-    </div>
-  )
+const ProjectCard = (props) => {
+    return (
+        <StyledProjectCard>
+            <StyledProjectImage src={props.image} />
+        </StyledProjectCard>
+    )
 }
 
-export { ProjectCard }
+export default ProjectCard

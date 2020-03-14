@@ -7,7 +7,7 @@ import { GlobalStyle } from '../GlobalStyle'
 import NavBar from './Nav'
 import Intro from './Intro'
 import Stack from './Stack'
-import Work from './WorkSection'
+import Work from './Work'
 
 // Styles
 
