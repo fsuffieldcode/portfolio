@@ -38,6 +38,10 @@ const NavItems = styled.div`
   justify-content: space-between;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+
+  a {
+    text-decoration: none;
+  }
 `
 
 // Code

@@ -41,11 +41,11 @@ const Work = props => {
         "
       />
       <StyledFooter>
-        <h3>This site was made with <span role="img" aria-label="red heart emoji">❤️</span> and:</h3>
+        <h3>This site is was made with <span role="img" aria-label="red heart emoji">❤️</span> and:</h3>
         <TechContainer>
           <TechTag>React</TechTag>
           <TechTag>Styled Components</TechTag>
-          <TechTag>Heroku</TechTag>
+          <TechTag>Netlify</TechTag>
         </TechContainer>
         <LinkContainer>
           <ProjectLink href="https://github.com/fsuffieldcode/portfolio">View Code</ProjectLink>

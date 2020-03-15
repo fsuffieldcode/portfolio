@@ -8,24 +8,10 @@ const IntroContainer = styled.section`
   margin-bottom: 2rem;
   text-align: center;
   color: var(--darkgrey);
-
-  /* Social Icons */
-  div > svg {
-    width: 1.8rem;
-    margin: 0.25rem;
-  }
-
-  @media (min-width: 900px) {
-
-    /* Social Icons */
-    div > svg {
-      width: 3rem;
-    }
-  }
 `
 
 const HelloText = styled.span`
-@media (min-width: 900px) {
+  @media (min-width: 900px) {
     font-size: 1.1rem;
   }
 
@@ -63,13 +49,32 @@ const Heading = styled.h1`
 const StyledSocialContainer = styled.div`
   display: flex;
 
+  a {
+    display: block;
+  }
+
   svg {
-    margin: 0.5rem;
+    width: 2rem;
+    margin: 0.25rem;
+  }
+
+  @media (min-width: 600px) {
+    /* Social Icons */
+    svg {
+      width: 2.5rem;
+    }
+  }
+
+  @media (min-width: 900px) {
+    /* Social Icons */
+    svg {
+      width: 3rem;
+    }
   }
 `
 
 const StyledBio = styled.span`
-width: 70%;
+  width: 70%;
   margin-top: 1.5rem;
   font-size: 1rem;
   color: var(--midgrey);
