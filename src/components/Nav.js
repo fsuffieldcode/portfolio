@@ -12,6 +12,7 @@ const StyledNav = styled.nav`
   padding-bottom: 0.5rem;
   color: var(--darkgrey);
   position: sticky;
+  font-size: 1.1rem;
 
   ul {
     margin: 0;
@@ -19,16 +20,10 @@ const StyledNav = styled.nav`
     display: flex;
     justify-content: space-around;
     list-style: none;
-    font-size: 2vh;
   }
 
   li {
     margin-left: 1rem;
-  }
-
-  i {
-    display: inline-block;
-    font-size: 1.6rem;
   }
 `
 
