@@ -13,6 +13,7 @@ const StackContainer = styled.section`
     margin-bottom: 0;
     font-weight: 200;
     color: var(--almostblack);
+    font-size: 0.8rem;
   }
 
   @media (min-width: 900px) {
@@ -31,9 +32,9 @@ const StackContainer = styled.section`
 `
 
 const StackCard = styled.div`
-  width: 100px;
+  width: 80px;
   padding: 0.8rem;
-  margin: 1.1rem;
+  margin: 1rem;
   border-radius: 0.75rem;
   display: flex;
   flex-wrap: wrap;
