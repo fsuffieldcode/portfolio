@@ -14,6 +14,7 @@ const GlobalStyle = createGlobalStyle`
         height: 100%;
         overflow: hidden;
         color: var(--almostblack);
+        background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
     }
     
     body {
@@ -21,7 +22,6 @@ const GlobalStyle = createGlobalStyle`
         overflow: auto;
         font-family: 'Muli', sans-serif;
         box-sizing: border-box;
-          background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
     }
 
 `
