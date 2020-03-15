@@ -17,6 +17,12 @@ const GlobalStyle = createGlobalStyle`
         background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
         min-height: 100vh;
 background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+@media only screen and (max-device-width: 480px) {
+    html {
+      height: calc(100% + 60px);
+      min-height: calc(100% + 60px);
+    }
+}
     }
     
     body {
