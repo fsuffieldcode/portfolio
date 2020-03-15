@@ -445,8 +445,8 @@ const FigmaIcon = props => {
 
 const EmailIcon = props => {
   return (
-    <div>
-      <svg viewBox="0 0 512 512">
+    <div style={{marginTop: "3px"}}>
+      <svg viewBox="0 0 512 500">
         <g>
           <g>
             <path
