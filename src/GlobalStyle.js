@@ -15,6 +15,8 @@ const GlobalStyle = createGlobalStyle`
         overflow: hidden;
         color: var(--almostblack);
         background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+        min-height: 100vh;
+background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
     }
     
     body {
