@@ -5,7 +5,7 @@ const IntroContainer = styled.section`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   text-align: center;
   color: var(--darkgrey);
 
@@ -65,7 +65,7 @@ const StyledSocialContainer = styled.div`
 
 const StyledBio = styled.span`
 width: 70%;
-  margin-top: 3rem;
+  margin-top: 1.5rem;
   font-size: 1rem;
   color: var(--midgrey);
 
