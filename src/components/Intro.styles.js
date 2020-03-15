@@ -11,7 +11,7 @@ const IntroContainer = styled.section`
 
   /* Social Icons */
   div > svg {
-    width: 2.25rem;
+    width: 1.8rem;
     margin: 0.25rem;
   }
 

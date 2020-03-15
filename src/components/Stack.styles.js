@@ -31,7 +31,7 @@ const StackContainer = styled.section`
 `
 
 const StackCard = styled.div`
-  width: 12vw;
+  width: 15vw;
   padding: 0.8rem;
   margin: 1.1rem;
   border-radius: 0.75rem;
