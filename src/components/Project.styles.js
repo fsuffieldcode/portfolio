@@ -12,6 +12,7 @@ const ProjectContainer = styled.div`
     font-size: 3rem;
     font-style: italic;
     margin: 1rem;
+    text-align: center;
   }
 `
 
