@@ -37,8 +37,8 @@ const HelloText = styled.span`
 
 const Heading = styled.h1`
   margin: 0.75rem;
-  font-size: 5.5rem;
-  line-height: 4.5rem;
+  font-size: 4.5rem;
+  line-height: 3.5rem;
   font-weight: 900;
   font-style: italic;
   background: -webkit-linear-gradient(var(--lightblue), var(--coral));

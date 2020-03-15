@@ -31,9 +31,9 @@ const StackContainer = styled.section`
 `
 
 const StackCard = styled.div`
-  width: 15vw;
+  width: 12vw;
   padding: 0.8rem;
-  margin: 1.2rem;
+  margin: 1.1rem;
   border-radius: 0.75rem;
   display: flex;
   flex-wrap: wrap;
@@ -73,7 +73,7 @@ const StackIcon = styled.div`
 
   /* Icons */
   svg {
-    width: 2.5rem;
+    width: 2.2rem;
     max-width: 90px;
     margin: 0.4rem;
     fill: var(--wine);
