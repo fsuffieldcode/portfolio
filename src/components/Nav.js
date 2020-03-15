@@ -12,7 +12,7 @@ const StyledNav = styled.nav`
   padding-bottom: 0.5rem;
   color: var(--darkgrey);
   position: sticky;
-  font-size: 1.1rem;
+  font-size: 1rem;
 
   ul {
     margin: 0;
