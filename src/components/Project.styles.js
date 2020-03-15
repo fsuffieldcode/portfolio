@@ -33,6 +33,7 @@ const ProjectImage = styled.img`
 
 const TechContainer = styled.div`
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 `
 
