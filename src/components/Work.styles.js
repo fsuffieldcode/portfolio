@@ -23,6 +23,7 @@ justify-content: center;
 align-items: center;
 margin-bottom: 2rem;
 text-align: center;
+margin: 1rem;
 
 span {
   font-style: normal;

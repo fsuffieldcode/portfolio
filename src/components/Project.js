@@ -24,8 +24,12 @@ class Project extends Component {
           })}
         </TechContainer>
         <LinkContainer>
-          <ProjectLink href={this.props.repo}>View Code</ProjectLink>
-          <ProjectLink href={this.props.demo}>Live Demo</ProjectLink>
+          <ProjectLink href={this.props.repo} loading="lazy">
+            View Code
+          </ProjectLink>
+          <ProjectLink href={this.props.demo} loading="lazy">
+            Live Demo
+          </ProjectLink>
         </LinkContainer>
         <About>{this.props.about}</About>
       </ProjectContainer>
