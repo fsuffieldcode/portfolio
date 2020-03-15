@@ -20,7 +20,7 @@ background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
     }
     
     body {
-        height: 100%;
+        height: 100vh;
         overflow: auto;
         font-family: 'Muli', sans-serif;
         box-sizing: border-box;
