@@ -26,7 +26,7 @@ const App = () => {
   return (
     <div>
       <GlobalStyle />
-      <Main>
+      <Main id="home">
         <MainContainer>
           <NavBar />
           <Intro />

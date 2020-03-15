@@ -41,9 +41,8 @@ const TechContainer = styled.div`
 
 const TechTag = styled.div`
   background-color: var(--midgrey);
-  font-style: italic;
   color: white;
-  padding: 0.25rem;
+  padding: 0.3rem;
   margin: 0.25rem;
   border-radius: 0.25rem;
 `
@@ -54,17 +53,21 @@ const LinkContainer = styled.div`
 `
 
 const ProjectLink = styled.a`
-  background-color: black;
-  font-style: italic;
+  background-color: var(--wine);
   color: white;
-  padding: 0.25rem;
-  margin: 0.5rem;
+  padding: 0.5rem;
+  margin: 0.75rem 0.25rem 0 0.25rem;
   border-radius: 0.25rem;
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.20);
   &:hover,
   &:active {
-    background-color: var(--wine);
-    color: inherit;
+    background-color: black;
+    color: white;
     text-decoration: none;
+
+    /* Hover effect */
+    position: relative;
+    bottom: -3px;
   }
 `
 

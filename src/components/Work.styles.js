@@ -14,7 +14,17 @@ const Header = styled.h2`
 margin: 5rem 0 3rem 0;
   font-size: 4vw;
   font-style: italic;
-  color: var(--wine);
+  color: var(--almostblack);
+`
+const StyledFooter = styled.footer`
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+span {
+  font-style: normal;
+}
 `
 
-export { HeaderContainer, Header, StyledWorkSection }
+export { HeaderContainer, Header, StyledWorkSection, StyledFooter }

@@ -44,6 +44,11 @@ const Heading = styled.h1`
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
+  @media (min-width: 400px) {
+    font-size: 5.5rem;
+    line-height: 4.5rem;
+  }
+
   @media (min-width: 900px) {
     font-size: 7rem;
     line-height: 6rem;

@@ -15,7 +15,6 @@ import {
   NodeIcon,
   ExpressIcon,
   MongoIcon,
-  VsCodeIcon,
   PhotoshopIcon,
   HerokuIcon,
   NetlifyIcon,

@@ -11,6 +11,7 @@ const StyledNav = styled.nav`
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   color: var(--darkgrey);
+  position: sticky;
 
   ul {
     margin: 0;
@@ -48,8 +49,12 @@ class Nav extends Component {
         <NavItems>
           <i className="fas fa-code" />
           <ul>
-            <li>Work</li>
-            <li>About</li>
+            <li>
+              <a href="#home">About</a>
+            </li>
+            <li>
+              <a href="#work">Work</a>
+            </li>
             <li>Contact</li>
           </ul>
         </NavItems>

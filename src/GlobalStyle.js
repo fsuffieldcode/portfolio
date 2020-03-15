@@ -11,17 +11,19 @@ const GlobalStyle = createGlobalStyle`
         --grape: #827191;
         --lightblue: #a6c0fe;
         --wine: #cf4d6f;
+        
         height: 100vh;
         overflow: auto;
         color: var(--almostblack);
         background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
         min-height: 100vh;
-background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
-@media only screen and (max-device-width: 480px) {
-    html {
-      height: calc(100% + 60px);
-      min-height: calc(100% + 60px);
-    }
+        background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+
+        @media only screen and (max-device-width: 480px) {
+            html {
+                height: calc(100% + 60px);
+                min-height: calc(100% + 60px);
+            }   
 }
     }
     
@@ -30,6 +32,14 @@ background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
         overflow: auto;
         font-family: 'Muli', sans-serif;
         box-sizing: border-box;
+    }
+
+    a {
+        color: var(--darkgrey);
+        &:hover {
+            color: var(--coral);
+
+        }
     }
 
 `

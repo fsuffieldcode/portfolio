@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled from 'styled-components'
 
 const StackContainer = styled.section`
   width: 100%;
@@ -42,7 +42,7 @@ const StackCard = styled.div`
   align-items: center;
   border: 1px solid var(--lightgrey);
   background-color: white;
-  box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.09);
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.09);
 
   @media (min-width: 900px) {
     width: 10rem;
@@ -80,17 +80,23 @@ const StackIcon = styled.div`
     fill: var(--wine);
   }
 
-  @media (min-width: 900px) {
+  @media (min-width: 500px) {
     /*  Icons */
     svg {
-      width: 3.5rem;
+      width: 2.8rem;
     }
 
-    /* Icon Labels */
-    div > div > span {
-      font-size: 0.9rem;
+    @media (min-width: 900px) {
+      /*  Icons */
+      svg {
+        width: 3.5rem;
+      }
+
+      /* Icon Labels */
+      div > div > span {
+        font-size: 0.9rem;
+      }
     }
   }
 `
-
 export { StackContainer, StackCard, StackIcon }
