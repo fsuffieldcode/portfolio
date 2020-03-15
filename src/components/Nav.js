@@ -10,6 +10,7 @@ const StyledNav = styled.nav`
   justify-content: center;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+  color: var(--darkgrey);
 
   ul {
     margin: 0;

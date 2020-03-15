@@ -1,5 +1,9 @@
 import styled from 'styled-components'
 
+const StyledWorkSection = styled.section`
+
+`
+
 const HeaderContainer = styled.div`
   width: 100%;
   display: flex;
@@ -7,21 +11,30 @@ const HeaderContainer = styled.div`
 `
 
 const Header = styled.h2`
-margin: 3rem 0 2rem 0;
-  font-size: 6vw;
+margin: 5rem 0 3rem 0;
+  font-size: 4vw;
   font-style: italic;
 `
 
 const ProjectContainer = styled.div`
-height: 500px;
+display: flex;
+justify-content: center;
 `
 
-const ProjectCard = styled.div`
-
+const ProjectDetailsContainer = styled.div`
+width: 100%;
+height: 100%;
+background-color: var(--almostblack);
 `
-
+const ProjectDetails = styled.span`
+`
 const ProjectImage = styled.img`
+width: 100%;
+max-width: 600px;
 
+@media (min-width: 600px) {
+  border-radius: 0.5rem;
+}
 `
 
-export { HeaderContainer, Header, ProjectContainer, ProjectCard, ProjectImage }
+export { HeaderContainer, Header, ProjectContainer, ProjectDetailsContainer, ProjectDetails, ProjectImage, StyledWorkSection }

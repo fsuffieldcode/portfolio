@@ -1,19 +1,25 @@
 import React, { Component } from 'react'
 
-import { HeaderContainer, Header, ProjectContainer, ProjectCard } from './Work.styles'
+import {
+  HeaderContainer,
+  Header,
+  ProjectContainer,
+  ProjectDetailsContainer,
+  ProjectDetails,
+  ProjectImage,
+  StyledWorkSection
+} from './Work.styles'
 
 const Work = props => {
   return (
-    <div>
+    <StyledWorkSection>
       <HeaderContainer>
-        <Header>Here's some of my work:</Header>
+        <Header>And here's some of my work:</Header>
       </HeaderContainer>
       <ProjectContainer>
-      <ProjectCard image="https://res.cloudinary.com/fsuffieldcode/image/upload/v1584051889/tenners.jpg" />
-      <ProjectCard image="https://res.cloudinary.com/fsuffieldcode/image/upload/v1584051395/theirishtimes.jpg" />
-      <ProjectCard image="https://res.cloudinary.com/fsuffieldcode/image/upload/v1584051889/tenners.jpg" />
+        <ProjectImage src="https://res.cloudinary.com/fsuffieldcode/image/upload/v1584229261/tenners-responsive-mockup.jpg" />
       </ProjectContainer>
-    </div>
+    </StyledWorkSection>
   )
 }
 

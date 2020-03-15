@@ -6,6 +6,7 @@ const IntroContainer = styled.section`
   align-items: center;
   justify-content: center;
   margin-top: 3rem;
+  margin-bottom: 3rem;
   text-align: center;
   color: var(--darkgrey);
 
@@ -17,11 +18,20 @@ const IntroContainer = styled.section`
 
   @media (min-width: 900px) {
 
-
     /* Social Icons */
     div > svg {
       width: 3rem;
     }
+  }
+`
+
+const HelloText = styled.span`
+@media (min-width: 900px) {
+    font-size: 1.1rem;
+  }
+
+  @media (min-width: 1200px) {
+    font-size: 1.3rem;
   }
 `
 
@@ -52,32 +62,22 @@ const StyledSocialContainer = styled.div`
   svg {
     margin: 0.5rem;
   }
-
-  @media (min-width: 1200px) {
-    svg {
-      max-width: 3rem;
-    }
-  }
 `
 
 const StyledBio = styled.span`
 width: 70%;
   margin-top: 3rem;
-  margin-bottom: 4rem;
   font-size: 1rem;
-  color: var(--darkgrey);
+  color: var(--midgrey);
 
   b {
     color: var(--wine);
+    font-style: italic;
   }
 
   @media (min-width: 900px) {
     font-size: 1.25rem;
   }
-
-  @media (min-width: 1200px) {
-    font-size: 1.5rem;
-  }
 `
 
-export { IntroContainer, Heading, StyledSocialContainer, StyledBio,  }
+export { IntroContainer, Heading, StyledSocialContainer, StyledBio, HelloText }

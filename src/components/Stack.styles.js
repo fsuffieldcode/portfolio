@@ -31,11 +31,10 @@ const StackContainer = styled.section`
 `
 
 const StackCard = styled.div`
-  min-height: 10rem;
-  max-width: 6rem;
+  width: 15vw;
   padding: 0.8rem;
-  margin: 1rem;
-  border-radius: 0.3rem;
+  margin: 1.2rem;
+  border-radius: 0.75rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -45,13 +44,17 @@ const StackCard = styled.div`
   box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.09);
 
   @media (min-width: 900px) {
-    max-width: 12rem;
+    width: 10rem;
+  }
+
+  @media (min-width: 1200px) {
+    width: 16rem;
   }
 `
 
 const StackIcon = styled.div`
   display: flex;
-  margin: 0.3rem;
+  margin: 0.25rem 0.25rem 0.5rem 0.25rem;
 
   /* Icon wrapper */
   div {

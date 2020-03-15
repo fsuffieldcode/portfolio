@@ -5,6 +5,7 @@ const GlobalStyle = createGlobalStyle`
     html {
         --almostblack: #434343;
         --darkgrey: #6e6e6e;
+        --midgrey: #8a8a8a;
         --lightgrey: #bfbfbf;
         --coral: #f68084;
         --grape: #827191;

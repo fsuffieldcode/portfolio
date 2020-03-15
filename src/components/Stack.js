@@ -19,7 +19,8 @@ import {
   PhotoshopIcon,
   HerokuIcon,
   NetlifyIcon,
-  FigmaIcon
+  FigmaIcon,
+  BootstrapIcon
 } from './Icons'
 
 const Stack = () => {
@@ -37,6 +38,9 @@ const Stack = () => {
             </StackIcon>
             <StackIcon>
               <JsIcon />
+            </StackIcon>
+            <StackIcon>
+              <BootstrapIcon />
             </StackIcon>
             <StackIcon>
               <HtmlIcon />
