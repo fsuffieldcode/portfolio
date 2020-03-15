@@ -12,6 +12,8 @@ import Work from './Work'
 // Styles
 
 const Main = styled.main`
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  height: 100vh;
 `
 
 const MainContainer = styled.div`
