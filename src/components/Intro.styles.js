@@ -5,7 +5,6 @@ const IntroContainer = styled.section`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 1rem;
   margin-bottom: 3rem;
   text-align: center;
   color: var(--darkgrey);
