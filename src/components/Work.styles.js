@@ -22,6 +22,7 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 margin-bottom: 2rem;
+text-align: center;
 
 span {
   font-style: normal;

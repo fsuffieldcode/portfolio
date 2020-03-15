@@ -41,7 +41,7 @@ const Work = props => {
         "
       />
       <StyledFooter>
-        <h3>This site is was made with <span role="img" aria-label="red heart emoji">❤️</span> and:</h3>
+        <h3>This site was made with <span role="img" aria-label="red heart emoji">❤️</span> and:</h3>
         <TechContainer>
           <TechTag>React</TechTag>
           <TechTag>Styled Components</TechTag>
