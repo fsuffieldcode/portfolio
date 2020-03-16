@@ -40,6 +40,7 @@ const NavItems = styled.div`
     color: white;
     padding: 0.5rem;
     border-radius: 0.25rem;
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.2);
 
     &:hover {
       color: white;
