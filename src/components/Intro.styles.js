@@ -56,6 +56,10 @@ const StyledSocialContainer = styled.div`
   svg {
     width: 2rem;
     margin: 0.25rem;
+    &:hover {
+      position: relative;
+      bottom: -3px;
+    }
   }
 
   @media (min-width: 600px) {

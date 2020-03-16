@@ -36,6 +36,17 @@ const NavItems = styled.div`
 
   a {
     text-decoration: none;
+    background-color: var(--coral);
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+
+    &:hover {
+      color: white;
+      background-color: var(--lightblue);
+      position: relative;
+      bottom: -3px;
+    }
   }
 `
 
@@ -49,17 +60,15 @@ class Nav extends Component {
           <i className="fas fa-code" />
           <ul>
             <li>
-              <a href="#home">About</a>
+              <a href="#work">See My Work</a>
             </li>
-            <li>
-              <a href="#work">Work</a>
-            </li>
-            <li>Contact</li>
           </ul>
         </NavItems>
       </StyledNav>
     )
   }
 }
+
+
 
 export default Nav

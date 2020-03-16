@@ -23,6 +23,7 @@ const ProjectDetailsContainer = styled.div`
   background-color: var(--almostblack);
 `
 const ProjectDetails = styled.span``
+
 const ProjectImage = styled.img`
   width: 100%;
   max-width: 700px;
@@ -58,7 +59,7 @@ const ProjectLink = styled.a`
   padding: 0.5rem;
   margin: 0.75rem 0.25rem 0 0.25rem;
   border-radius: 0.25rem;
-  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.20);
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.2);
   &:hover,
   &:active {
     background-color: black;
@@ -72,10 +73,10 @@ const ProjectLink = styled.a`
 `
 
 const About = styled.p`
-margin: 0.5rem;
-padding: 0.5rem;
-max-width: 600px;
-text-align: center;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  max-width: 600px;
+  text-align: center;
 `
 
 export {
