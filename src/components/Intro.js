@@ -33,7 +33,7 @@ const Intro = () => {
       <StyledBio>
         I code <b>fast</b> and <b>responsive</b> experiences for the web. <br />
         <br />
-        My experience leans heavily towards the front-end, but I enjoy full
+        My experience leans heavily towards the front-end, but I also enjoy full
         stack development.
         <br />
         <br />
