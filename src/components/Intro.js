@@ -20,7 +20,7 @@ const Intro = () => {
         Suffield
       </Heading>
       <StyledSocialContainer>
-        <a href="mailto:hello@fabiansuffield.com">
+        <a href="mailto:hello@fabiansuffield.com" target="_blank">
           <EmailIcon color="#f68084" />
         </a>
         <a href="https://github.com/fsuffieldcode/">
