@@ -35,7 +35,7 @@ const Work = props => {
         source="https://res.cloudinary.com/fsuffieldcode/image/upload/v1584294805/theirishtimes-responsive-mockup.jpg"
         tech={['JavaScript', 'HTML', 'CSS', 'Flexbox', 'CSS Grid']}
         repo="https://github.com/fsuffieldcode/the-irish-times"
-        demo="https://www.theirishtimes.netlify.com"
+        demo="https://www.theirishtimes.netlify.app"
         about="
         A mobile-first and responsive re-design of the website for broadsheet newspaper 'The Irish Times'. I wanted to practice creating a relatively complicated responsive layout. Coded based on design file found on Behance. 
         "
