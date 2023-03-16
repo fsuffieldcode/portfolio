@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/fsuffieldcode/portfolio/issues"
   },
-  "homepage": "https://github.com/fsuffieldcode/portfolio#readme"
+  "homepage": "https://github.com/fsuffieldcode/portfolio#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-scripts": "^5.0.1"
+  }
 }
