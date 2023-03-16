@@ -2,11 +2,21 @@ import React from 'react'
 
 import Project from './Project'
 
-import { TechContainer, TechTag, LinkContainer, ProjectLink } from './Project.styles'
+import {
+  TechContainer,
+  TechTag,
+  LinkContainer,
+  ProjectLink,
+} from './Project.styles'
 
-import { HeaderContainer, Header, StyledWorkSection, StyledFooter } from './Work.styles'
+import {
+  HeaderContainer,
+  Header,
+  StyledWorkSection,
+  StyledFooter,
+} from './Work.styles'
 
-const Work = props => {
+const Work = (props) => {
   return (
     <StyledWorkSection>
       <HeaderContainer id="work">
@@ -22,10 +32,10 @@ const Work = props => {
           'Express',
           'Mongoose',
           'Passport.js',
-          'Semantic UI'
+          'Semantic UI',
         ]}
         repo="https://github.com/fsuffieldcode/tenners"
-        demo="http://tenners.herokuapp.com"
+        demo="http://tenners.onrender.com"
         about="
         This web app allows users to create and manage lists of favourite music albums (you can register with a fake email to play around with it). I implemented a login system using Passport.js, providing salting and hashing for passwords. I used Spotify's web API for search and Mongoose/Mongodb as a database.
         "
@@ -41,14 +51,22 @@ const Work = props => {
         "
       />
       <StyledFooter>
-        <h3>This site was made with <span role="img" aria-label="red heart emoji">❤️</span> and:</h3>
+        <h3>
+          This site was made with{' '}
+          <span role="img" aria-label="red heart emoji">
+            ❤️
+          </span>{' '}
+          and:
+        </h3>
         <TechContainer>
           <TechTag>React</TechTag>
           <TechTag>Styled Components</TechTag>
           <TechTag>Netlify</TechTag>
         </TechContainer>
         <LinkContainer>
-          <ProjectLink href="https://github.com/fsuffieldcode/portfolio">View Code</ProjectLink>
+          <ProjectLink href="https://github.com/fsuffieldcode/portfolio">
+            View Code
+          </ProjectLink>
         </LinkContainer>
       </StyledFooter>
     </StyledWorkSection>
